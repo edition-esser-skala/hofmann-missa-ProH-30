@@ -39,3 +39,39 @@ KyrieCornoI = {
 		e8 e d d c4 r\fermata \bar "|." %38 finis
 	}
 }
+
+GloriaCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoGloria
+		c'4\fE d8 d e4 e
+		r d d e
+		c c d8 d e4
+		r d e r
+		e e8 e d4 d8 e %5
+		f4 f8 f e4 r
+		r2 r4 d
+		d d8 d d4 r
+		r d8 d d4 r
+		R1*16 %25
+		r4 d8 e e4 d
+		R1
+		d4 d c c
+		c c r2
+		R1*4 %33
+		r2 r4 d8 e
+		e4 d r d %35
+		d e e d
+		c r r2
+		c4 c8 c c c r4
+		R1
+		r2 f4. e8 %40
+		e4 d e r
+		r2 d4 d
+		d r r2
+		R1
+		c8 d e4 d r4 %45
+		r d e8 e d4
+		e d c r\fermata \bar "|." %47 finis
+	}
+}

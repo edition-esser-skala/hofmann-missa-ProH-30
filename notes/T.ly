@@ -101,6 +101,110 @@ KyrieTenoreLyrics = \lyricmode {
 	e -- lei -- son. %38 finis
 }
 
+GloriaTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key f \major \time 4/4 \autoBeamOff \tempoGloria
+		\mvTr c4\fE^\tutti c c a8 a
+		d d c c c8. c16 c4
+		b4. b8 c4 c
+		d( c) c r
+		r8 c c c c4 c8 c %5
+		c4 c8 c c4 f,~
+		f8 g a a h g g g
+		g4. g8 g4 r
+		r2 g8. g16 g4
+		g a8 a a4 a %10
+		r2 g4 a8([ b)]
+		a a b h16 h a4 a
+		cis cis8 cis cis4 cis
+		cis4. cis8 cis4 cis
+		e4. e8 d4 d,8 e %15
+		f4 e8([ d)] e4 r
+		d' b8 b a4 g
+		a b8([ c)] d8. d16 d4
+		b8([ a g f] e4) a
+		a2 a4 r %20
+		r2 d4 d8 d
+		h4 c h a
+		a gis a2~
+		a8[ h] c c h2
+		a4 e' d d %25
+		r8 d c c c4 c
+		c4. a8 g4 g
+		a( g) a a
+		b a r8 c h a
+		g4 g c4.\p c8 %30
+		d2 c4 c
+		cis cis h h
+		a2 a4 d\f
+		d d r8 d c c16 c
+		c4 c c4. c8 %35
+		c4. d8 c2
+		c4 r r2
+		a8. a16 a8 a b a b4
+		a r8 a a4 g
+		g8. g16 f8 d' d4 d8 d %40
+		c8. c16 c4 c4. c8
+		d4 e d2
+		c4 r r8 c c d
+		d8. d16 d4 r8 b b c16 c
+		c8 c c4 c r %45
+		r r8 c4 c8 c4
+		c c c r\fermata \bar "|." %47 finis
+	}
+}
+
+GloriaTenoreLyrics = \lyricmode {
+	Et in ter -- ra, in
+	ter -- ra pax ho -- mi -- ni -- bus
+	bo -- nae vo -- lun --
+	ta -- tis.
+	Lau -- da -- mus te, be -- ne -- %5
+	di -- ci -- mus te, ad --
+	o -- ra -- mus te, glo -- ri -- fi --
+	ca -- mus te.
+	Gra -- ti -- as
+	a -- gi -- mus ti -- bi %10
+	pro -- pter
+	ma -- gnam glo -- ri -- am tu -- am,
+	Do -- mi -- ne De -- us,
+	Rex coe -- le -- stis,
+	De -- us Pa -- ter o -- %15
+	mni -- po -- tens,
+	Do -- mi -- ne Fi -- li
+	u -- ni -- ge -- ni -- te,
+	Je -- su
+	Chri -- ste, %20
+	Do -- mi -- ne
+	De -- us, A -- gnus
+	De -- i, Fi --
+	li -- us Pa --
+	tris. Qui tol -- lis %25
+	pec -- ca -- ta mun -- di:
+	Mi -- se -- re -- re
+	no -- bis. Qui
+	tol -- lis pec -- ca -- ta
+	mun -- di: Su -- sci -- %30
+	pe de -- pre --
+	ca -- ti -- o -- nem
+	no -- stram. Qui
+	se -- des ad dex -- te -- ram
+	Pa -- tris: Mi -- se -- %35
+	re -- re no --
+	bis.
+	Quo -- ni -- am tu so -- lus san --
+	ctus, tu so -- lus
+	Do -- mi -- nus, tu so -- lus al -- %40
+	tis -- si -- mus, Je -- su,
+	Je -- su Chri --
+	ste. Cum San -- cto
+	Spi -- ri -- tu in glo -- ri -- a
+	De -- i Pa -- tris, %45
+	a -- men, a --
+	men, a -- men. %47 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

@@ -13,7 +13,7 @@
 	bottom-margin = .5\cm
 	outer-margin = 2\cm
 	inner-margin = 1.5\cm
-	indent = 2.5\cm
+	indent = 1\cm
 
 	oddFooterMarkup = \markup {}
 	evenFooterMarkup = \markup {}
@@ -558,6 +558,8 @@ tocSection = #(define-music-function
 
 tempoKyrie = \tempoMarkup "Allegro"
 tempoChriste = \tempoMarkup "Andante"
+
+tempoGloria = \tempoMarkup "Allegro moderato"
 
 
 
