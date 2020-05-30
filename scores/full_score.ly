@@ -6,7 +6,10 @@
 
 \include "../definitions.ly"
 
-\paper { #(define (page-post-process layout pages) (ly:create-toc-file layout pages)) }
+\paper {
+	#(set-paper-size "a4" 'landscape)
+	#(define (page-post-process layout pages) (ly:create-toc-file layout pages))
+}
 
 #(set-global-staff-size 15.87)
 
@@ -23,6 +26,7 @@
 				\new StaffGroup <<
 					\new Staff <<
 						\set StaffGroup.instrumentName = \markup { \center-column { "Corno I, II" "in F" } }
+						% \transpose c f,
 						\partcombine \KyrieCornoI \KyrieCornoII
 					>>
 				>>
@@ -79,7 +83,7 @@
 				\new FiguredBass { \KyrieBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 80 }
+			\midi { \tempo 4 = 90 }
 		}
 	}
 }

@@ -1,4 +1,4 @@
-# Leopold Hofmann: Missa in ut Fa dedicata Sancto Angelo CUustodi
+# Leopold Hofmann: Missa in ut Fa dedicata Sancto Angelo Custodi ProH 39
 
 Engraving files for LilyPond 2.18.0
 
