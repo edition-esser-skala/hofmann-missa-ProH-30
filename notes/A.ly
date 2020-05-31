@@ -387,6 +387,58 @@ SanctusAltoLyrics = \lyricmode {
 	cel -- sis. %11 finis
 }
 
+BenedictusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \autoBeamOff \tempoBenedictus
+		\mvTr c4.\fE^\tutti c8 d4 d8 d
+		d4 d8 d c4 f8 f
+		f4 e f r
+		c4. c8 d4 d8 d
+		d4 d8 d d([ c16 h)] c8 d %5
+		c4( h8.) h16 c4 r
+		R1
+		g'4. g8 a4 a8 a
+		a4 a8 a g4 g8 e
+		e4( d8) d c4 r %10
+		g'4. g8 a4 a8 a
+		a a16 a a8 a16 a a8. g16 g8 g
+		g g16 g f8. f16 e4 r
+		c4. c8 d4 d8 d
+		d4 d8 d c4 f8 f %15
+		f4 e f r8 f
+		f4.( g8 a[ b)] a g
+		f4( e8) e f f e f
+		g a b2 a8 a
+		a4 g8 g g8. g16 f8 f %20
+		f4( e) f r\fermata \bar "|." %21 finis
+	}
+}
+
+BenedictusAltoLyrics = \lyricmode {
+	Be -- ne -- di -- ctus, qui
+	ve -- nit in no -- mi -- ne
+	Do -- mi -- ni,
+	be -- ne -- di -- ctus, qui
+	ve -- nit in no -- mi -- ne %5
+	Do -- mi -- ni.
+
+	Be -- ne -- di -- ctus, qui
+	ve -- nit in no -- mi -- ne
+	Do -- mi -- ni, %10
+	be -- ne -- di -- ctus, qui
+	ve -- nit in no -- mi -- ne Do -- mi -- ni, in
+	no -- mi -- ne Do -- mi -- ni.
+	Be -- ne -- di -- ctus, qui
+	ve -- nit in no -- mi -- ne %15
+	Do -- mi -- ni, in
+	no -- mi -- ne
+	Do -- mi -- ni. O -- san -- na
+	in ex -- cel -- sis, o --
+	san -- na, o -- san -- na in ex -- %20
+	cel -- sis. %21 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

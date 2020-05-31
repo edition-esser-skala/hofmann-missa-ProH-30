@@ -196,3 +196,31 @@ SanctusViolinoII = {
 		\tuplet 3/2 8 { a16[ a' g] } \appoggiatura g \tuplet 3/2 8 { f^\critnote e f } g,8 e' f,4 r\fermata \bar "|." %11 finis
 	}
 }
+
+BenedictusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoBenedictus
+		c4.\fE c8 d4 d8 d
+		d4 d8 d c4 f8 f
+		f4 e f r
+		c4. c8 d4 d8 d
+		d4 d8 d d c16 h c8 d %5
+		c4 h8. h16 c8 e'16.-\critnote d32 c16 e c h
+		a c a g f a f e d f' e c c,8 h
+		c4 g'8 g a4 a8 a
+		a4 a8 a g4 g8 e
+		e4 d8 d c4 r %10
+		g'4. g8 a4 a8 a
+		a a16 a a8 a16 a a8. g16 g8 g
+		g g16 g f8. f16 e4 r
+		c4. c8 d4 d8 d
+		d4 d8 d c4 f8 f %15
+		f4 e f r8 f
+		f4. g8 a b a g
+		\tuplet 3/2 8 { f16 a' g f[ e f] } g,8 e' f, f e f
+		g a b2 a8 a
+		a4 g8. g16 g8. g16 f8 g %20
+		\tuplet 3/2 8 { a16[ a' g] f e f } g,8 e' f,4 r\fermata \bar "|." %21 finis
+	}
+}

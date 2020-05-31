@@ -389,6 +389,58 @@ SanctusTenoreLyrics = \lyricmode {
 	cel -- sis. %11 finis
 }
 
+BenedictusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key f \major \time 4/4 \autoBeamOff \tempoBenedictus
+		\mvTr a4.\fE^\tutti a8 a4 a8 a
+		b4 b8 b c4 c8 c
+		d4 c c r
+		a4. a8 a4 a8 a
+		g4 g8 g g4 g8 a %5
+		g4. g8 g4 r
+		R1
+		e'4. e8 e4 e8 e
+		f4 c8 c c4 c8 c
+		c4( h8) h c4 r %10
+		e4. e8 e4 e8 e
+		d d16 d d8 d16 d d8. d16 d8 d
+		c c16 c c8. c16 c4 r
+		a4. a8 a4 a8 a
+		b4 b8 b c4 c8 c %15
+		d4 c c r8 f,
+		d'4.( b8 c4) c8 d
+		c4. c8 c4 r
+		r f8 f f4 d8 d
+		d4 d8 d c8. c16 c8 d %20
+		c2 c4 r\fermata \bar "|." %21 finis
+	}
+}
+
+BenedictusTenoreLyrics = \lyricmode {
+	Be -- ne -- di -- ctus, qui
+	ve -- nit in no -- mi -- ne
+	Do -- mi -- ni,
+	be -- ne -- di -- ctus, qui
+	ve -- nit in no -- mi -- ne %5
+	Do -- mi -- ni.
+
+	Be -- ne -- di -- ctus, qui
+	ve -- nit in no -- mi -- ne
+	Do -- mi -- ni, %10
+	be -- ne -- di -- ctus, qui
+	ve -- nit in no -- mi -- ne Do -- mi -- ni, in
+	no -- mi -- ne Do -- mi -- ni.
+	Be -- ne -- di -- ctus, qui
+	ve -- nit in no -- mi -- ne %15
+	Do -- mi -- ni, in
+	no -- mi -- ne
+	Do -- mi -- ni.
+	In ex -- cel -- sis, o --
+	san -- na, o -- san -- na in ex -- %20
+	cel -- sis. %21 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

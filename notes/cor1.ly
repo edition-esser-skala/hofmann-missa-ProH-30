@@ -131,3 +131,27 @@ SanctusCornoI = {
 		e4 d c r\fermata \bar "|." %11 finis
 	}
 }
+
+BenedictusCornoI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoBenedictus
+		c'4\fE c8 c c4 c8 c
+		c4 c8 c c4 r
+		r2 c8 c g e
+		c4 r r2
+		R1*3 %7
+		g''4 g8 g g4 g8 g
+		g4 g8 g g4 r
+		R1*3 %12
+		d4 e d r
+		c c8 c c4 c8 c
+		c4 c8 c c4 r %15
+		r d e r
+		R1
+		e4 d c r
+		R1
+		r2 d4 e8 f %20
+		e4 d c r\fermata \bar "|." %21 finis
+	}
+}

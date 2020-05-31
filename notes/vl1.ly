@@ -198,6 +198,34 @@ SanctusViolinoI = {
 	}
 }
 
+BenedictusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoBenedictus
+		f4.\fE f8 f4 f8 f
+		f4 f8 f f4 a8 c
+		\appoggiatura c b4. b8 a4 r
+		f4. f8 f4 f8 f
+		f4 f8 f f e16 d e8 f %5
+		e4 d8. d16 c8 e'16. d32 c16 e c h
+		a c a g f a f e d f' e c e,8 d
+		c4 c'8 c c4 c8 c
+		c4 c8 c c4 e8 g,
+		g4 f8 f e4 r %10
+		c'4. c8 c4 c8 c
+		c c16 c c8 c16 c c8. b!16 b8 b
+		b b16 b a8. a16 g4 r
+		f4. f8 f4 f8 f
+		f4 f8 f f4 a8 c %15
+		\appoggiatura c b4. b8 a f \once \tieDashed c'4~
+		c8 b16 a b c d e f8 d c b
+		\tuplet 3/2 8 { a16 a' g f[ e f] } g,8 e' f, a g a
+		b c d2 c8 c
+		c4 b8. b16 b8. b16 a8 g %20
+		\tuplet 3/2 8 { a16[ a' g] f e f } g,8 e' f,4 r\fermata \bar "|." %21 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
