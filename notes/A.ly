@@ -355,6 +355,38 @@ CredoAltoLyrics = \lyricmode {
 	men. %71 finis
 }
 
+SanctusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \autoBeamOff \tempoSanctus
+		\mvTr f4\fE^\tutti f r f(
+		g) f r b~
+		b a g g8 g
+		g4 f f e8([ d)]
+		e4 \tempoPleni e8 e16 e f8 f16 f g4 %5
+		f f8 f16 f f8 f16 f f4
+		f r f \once \tieDashed g~
+		g8 f16 f f8([ e)] f f e f
+		g a b2 a8 a
+		a4 g8 g g8. g16 f8 f %10
+		f4( e) f r\fermata \bar "|." %11 finis
+	}
+}
+
+SanctusAltoLyrics = \lyricmode {
+	San -- ctus, San --
+	ctus, San --
+	ctus Do -- mi -- nus
+	De -- us Sa -- ba --
+	oth. Ple -- ni sunt coe -- li et ter -- %5
+	ra, ple -- ni sunt coe -- li et ter --
+	ra glo -- _
+	ri -- a tu -- a. O -- san -- na
+	in ex -- cel -- sis, o --
+	san -- na, o -- san -- na in ex -- %10
+	cel -- sis. %11 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

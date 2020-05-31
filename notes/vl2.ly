@@ -179,3 +179,20 @@ CredoViolinoII = {
 		f,4 r r2\fermata \bar "|." %71 finis
 	}
 }
+
+SanctusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoSanctus
+		f4\fE f r f
+		g f r b~
+		b a g g8 g
+		g4 f f e8 d
+		e4 \tempoPleni e'16 e, e e' f f, f f' g g, g g' %5
+		f c a f a a, a a' b b, b b' c c, c c'
+		b f d b d' c d c b4 b16 a b a
+		g16. b32 a16. f'32 g,8 e' f, f e f
+		g a b2 a8 a a4 g8 g g8. g16 f8 g
+		\tuplet 3/2 8 { a16[ a' g] } \appoggiatura g \tuplet 3/2 8 { f^\critnote e f } g,8 e' f,4 r\fermata \bar "|." %11 finis
+	}
+}

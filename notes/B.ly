@@ -346,6 +346,38 @@ CredoBassoLyrics = \lyricmode {
 	men. %71 finis
 }
 
+SanctusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key f \major \time 4/4 \autoBeamOff \tempoSanctus
+		\mvTr f4\fE-\tutti f r d(
+		e) f r b,(
+		f') fis g g8 g
+		e4 f c4. c8
+		c4 \tempoPleni c8 c16 c f8 f16 f e4 %5
+		f f8 f16 f d8 b16 b a4
+		b r b'16[( a b a] g[ f g f]
+		e8) f16 f c4 f, r
+		r b8 d f4 fis8 d
+		g4 g,8 g' e8. e16 f8 b, %10
+		c2 f,4 r\fermata \bar "|." %11 finis
+	}
+}
+
+SanctusBassoLyrics = \lyricmode {
+	San -- ctus, San --
+	ctus, San --
+	ctus Do -- mi -- nus
+	De -- us Sa -- ba --
+	oth. Ple -- ni sunt coe -- li et ter -- %5
+	ra, ple -- ni sunt coe -- li et ter --
+	ra glo --
+	ri -- a tu -- a.
+	In ex -- cel -- sis, o --
+	san -- na, o -- san -- na in ex -- %10
+	cel -- sis. %11 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

@@ -151,66 +151,131 @@
 	% 		\midi { \tempo 4 = 90 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "3"
+	% 		title = "C R E D O"
+	% 	}
+	% 	% \tocSection "3" "Credo"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new Staff <<
+	% 					\set StaffGroup.instrumentName = \markup { \center-column { "cor" "1, 2" } }
+	% 					% \transpose c f,
+	% 					\partcombine \CredoCornoI \CredoCornoII
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "vl 1"
+	% 						\CredoViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "vl 2"
+	% 						\CredoViolinoII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S"
+	% 					\new Voice = "Soprano" { \dynamicUp \CredoSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \CredoSopranoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \CredoAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \CredoAltoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "T"
+	% 					\new Voice = "Tenore" { \dynamicUp \CredoTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \CredoTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "B"
+	% 					\new Voice = "Basso" { \dynamicUp \CredoBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \CredoBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\CredoOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \CredoBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 80 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "3"
-			title = "C R E D O "
+			number = "4"
+			title = "S A N C T U S"
 		}
-		% \tocSection "3" "Credo"
+		% \tocSection "4" "Sanctus"
 		\score {
 			<<
 				\new StaffGroup <<
 					\new Staff <<
 						\set StaffGroup.instrumentName = \markup { \center-column { "cor" "1, 2" } }
 						% \transpose c f,
-						\partcombine \CredoCornoI \CredoCornoII
+						\partcombine \SanctusCornoI \SanctusCornoII
 					>>
 				>>
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "vl 1"
-							\CredoViolinoI
+							\SanctusViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "vl 2"
-							\CredoViolinoII
+							\SanctusViolinoII
 						}
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "S"
-						\new Voice = "Soprano" { \dynamicUp \CredoSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \SanctusSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \CredoSopranoLyrics
+					\new Lyrics \lyricsto Soprano \SanctusSopranoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \CredoAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \SanctusAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \CredoAltoLyrics
+					\new Lyrics \lyricsto Alto \SanctusAltoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "T"
-						\new Voice = "Tenore" { \dynamicUp \CredoTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \SanctusTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \CredoTenoreLyrics
+					\new Lyrics \lyricsto Tenore \SanctusTenoreLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "B"
-						\new Voice = "Basso" { \dynamicUp \CredoBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \SanctusBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \CredoBassoLyrics
+					\new Lyrics \lyricsto Basso \SanctusBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\CredoOrgano
+						\SanctusOrgano
 					}
 				>>
-				\new FiguredBass { \CredoBassFigures }
+				\new FiguredBass { \SanctusBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 4 = 80 }

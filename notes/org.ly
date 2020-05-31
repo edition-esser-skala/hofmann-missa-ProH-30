@@ -346,6 +346,38 @@ CredoBassFigures = \figuremode {
 	r1 %71 finis
 }
 
+SanctusOrgano = {
+	\relative c {
+		\clef bass
+		\key f \major \time 4/4 \tempoSanctus
+		\mvTr f4\fE-\tutti f r d
+		e f r b,
+		f' fis g g8 g
+		e4 f c2
+		c4 \tempoPleni c8 c f f e c %5
+		f f, f' f d b a f
+		b4 r b'16 a b a g f g f
+		e8 f c c f,4 r
+		r b8 d f f fis d
+		g g g, g' e8. e16 f8 b, %10
+		c c c c f,4 r\fermata \bar "|." %11 finis
+	}
+}
+
+SanctusBassFigures = \figuremode {
+	r2. <6>4
+	<6 5>1
+	<6 4>4 <5 3>2.
+	<6 5>2 <6 4>4 <5 3>8 <4 2>
+	<5 3>2. <6 5>8 <[7]> %5
+	r2 <6>4 <6 5->8 <[7-]>
+	r1
+	<6 5>4 <4>8 <3> r2
+	r4. <[6]>8 <6 4>4 <5 3>8 <[7 _+]>
+	<9 4>4 <8 3> <6 5>4. q8 %10
+	<6 4>4 <5 3>2. %11 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

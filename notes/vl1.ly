@@ -180,6 +180,24 @@ CredoViolinoI = {
 	}
 }
 
+SanctusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoSanctus
+		c'4\fE f, \once \tieDashed b2~
+		b4 a d2~
+		d4 c b b8 b
+		b4 a a g8 f
+		g4 \tempoPleni g'16 g, g g' a a, a a' b b, b b' %5
+		a f c a c c, c c' d d, d d' es es, es es'
+		d b f d d' c d c b4 b16 a b a
+		g16. b32 a16. f'32 g,8 e' f, a g a
+		b c d2 c8 c
+		c4 b8 b b8. b16 a8 g %10
+		\tuplet 3/2 8 { a16[ a' g] } \appoggiatura g \tuplet 3/2 8 { f e f } g,8 e' f,4 r\fermata \bar "|." %11 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
