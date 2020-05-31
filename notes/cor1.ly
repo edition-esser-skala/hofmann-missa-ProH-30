@@ -75,3 +75,41 @@ GloriaCornoI = {
 		e d c r\fermata \bar "|." %47 finis
 	}
 }
+
+CredoCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoCredo
+		c'4\fE c r e
+		e d r2
+		d4 e r g
+		e r r2
+		R1*2 %6
+		c8 d e4 d r
+		c8 c c4 c r
+		R1*4 %12
+		r2 d4 d
+		e8 e d4 c r
+		R1*4 %18
+		r2 d4 d
+		d e r2 %20
+		r d8 e g4
+		<< { \oneVoice e r r2  } \\ { s8 \tempoEtIncarnatus s2.. } >>
+		e8 e e e e4 e\pE
+		r2 e4 r
+		e8 e e e e4 \tempoCrucifixus r %25
+		R1*2
+		d4\fE c c c
+		c r r2
+		R1 %30
+		d4\pE e d d
+		<< { \oneVoice c c8\fE c c4 c } \\ { s8 \tempoEtResurrexit s2.. } >>
+		r4 d d8 e r4
+		R1*4 %37
+		d8 e d d e4 r
+		R1*30 %68
+		r2 d4\fE d8 d
+		e e d4 e8 e d4 %70
+		c r r2\fermata \bar "|." %71 finis
+	}
+}

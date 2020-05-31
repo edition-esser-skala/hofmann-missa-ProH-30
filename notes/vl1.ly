@@ -103,6 +103,83 @@ GloriaViolinoI = {
 	}
 }
 
+CredoViolinoI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoCredo
+		c'4\fE f,8 c' f4 \tuplet 3/2 8 { f16[ e f] a g f }
+		f4 e8 c d4 \tuplet 3/2 8 { d16[ e d] f e d }
+		c8.( d32 e) \tuplet 3/2 8 { f16[ g a] a, b c } c4 b\trillE
+		a a'16 f c a h f d' h c g e' c
+		d f h f d' h f d e c'8 c16 c e, d c %5
+		\tuplet 3/2 8 { h[ a g] } c e, d8 h' c,4 r
+		r2 r4 c'16 a f' c
+		d f c f d f b d, c f, a c f f e d
+		cis e a cis, d d' e, g \tuplet 3/2 8 { f[ e d] } d' f, e8 cis'
+		d,4 d,16 fis a d \appoggiatura d c8^\critnote b16 a b g g, b' %10
+		a d, fis d b' d g b b, g e g a c f a,
+		g e c e g c e g a, c fis a a, c fis a
+		b, d g b b, d g b g, b e g b g e b
+		a c f a, g8 e' f,4 \once \tieDashed c'~
+		c8 d16 c d8 e f f, c' c %15
+		f16 f, f f' f f, f f' e g c e, f d d' f,
+		e c g e c e g c e e, e' e e e, e' e
+		f f, f' f f f, f' f a a, a' a a a, a' a
+		a a, a' a g g, g' g g g, g' g g g, g' g
+		g g, g' g f8 c d c d c %20
+		b4 b16( c32 d e f g a) b16. b,32 a16. f'32 g,8 e'
+		f, \tempoEtIncarnatus c' c c cis8. cis16 cis8 d
+		e4. e16 e e8 d a\pE a
+		gis gis gis8. gis16 a8 e \once \tieDashed g4~
+		g8 f e8. e16 d4 \tempoCrucifixus f8\fE f %25
+		fis4 fis g8. g16 g8 g
+		a4 a8-\critnote a b8. b16 b8 b
+		b4 a d2
+		c b
+		a \once \tieDashed g~\pE %30
+		g4 a g4. g8
+		f8 \tempoEtResurrexit a'16(\fE f) f( c) c( a) d( b) f'( d) c( a) f'( c)
+		b g g' g g e g b, b8.(\trillE a32 b) a8 c
+		f4 f,8 f' f8.(\trillE e32 f) e8 c
+		\tuplet 3/2 8 { f16[ e f] } f, f' \tuplet 3/2 8 { f[ e f] } g, f' e c g e c4 %35
+		r2 r4 \once \tieDashed f'~
+		f16 f, e^\critnote e' \once \tieDashed d4~ d16 d, c c' \once \tieDashed b4~
+		b16 g' a, f' g,8 e' f,16 a c f a f c a
+		g cis e g f a, e' a, f'( e) e( d) d a' c, a'
+		c,8.(\trillE h32 c) h4 r8 g g g %40
+		r h h h r c c c
+		r f f f e d r4
+		c2\pE \once \tieDashed c~
+		c8 es d c h4 d8\fE d
+		g16( d) d( h) h g g g' g e e c c g g g' %45
+		\tuplet 3/2 8 { f[ e d] } e c' d,8 h' c,4 r
+		R1
+		r2 r4 \once \tieDashed h~
+		h8 h16 c d8 d d4 c
+		R1*2 %51
+		<g' h, d, g,>8 d32( c h a) g16 h d f e c g' e d4
+		c2\pE a
+		f4. f8 f4 e8 e
+		e d16( e) f8 e e4 d %55
+		f4. f8 f8. e16 e4
+		e16\fE a c, a' h,8 gis' a, a'16 gis a e c e
+		a,8 a'16 gis a a, a' g f8 f16 e f a f e
+		d8 d16 c d8 dis? e16 e gis fis e d c h
+		a a' c h a g f e d8 d16 c d8 dis %60
+		e e'16 dis e e, gis e a, c e a c e a e
+		cis e a e cis e a, cis d d, f a d f a a,
+		b! b' b b b g e b a a' a a a f d a^\critnote
+		g g g g as as as as as8.( g32 as) g4
+		c,16 e g c e g g, b a8 f16 e f c a c %65
+		f a c f d^\critnote f e b' a8 f, r4
+		a\pE g \appoggiatura g f2
+		e4 c'\fE c c8 c
+		c4 b8 b b b b b16 b
+		a c f a g,8 e' a,16 c f a g,8 e' %70
+		f,4 r r2\fermata \bar "|." %71 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

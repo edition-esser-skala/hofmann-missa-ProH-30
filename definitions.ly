@@ -557,9 +557,12 @@ tocSection = #(define-music-function
 )
 
 tempoKyrie = \tempoMarkup "Allegro"
-tempoChriste = \tempoMarkup "Andante"
-
+	tempoChriste = \tempoMarkup "Andante"
 tempoGloria = \tempoMarkup "Allegro moderato"
+tempoCredo = \tempoMarkup "Allegro"
+	tempoEtIncarnatus = \tempoMarkup "Adagio"
+	tempoCrucifixus = \tempoMarkup "Andante"
+	tempoEtResurrexit = \tempoMarkup "Allegro"
 
 
 

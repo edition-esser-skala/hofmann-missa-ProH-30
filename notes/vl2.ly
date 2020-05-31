@@ -102,3 +102,80 @@ GloriaViolinoII = {
 		f32( e d c b a g f) g8 e' f,4 r\fermata \bar "|." %47 finis
 	}
 }
+
+CredoViolinoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoCredo
+		c'4\fE f,8 c' f4 \tuplet 3/2 8 { f16[ e f] a g f }
+		f4 e8 c d4 \tuplet 3/2 8 { d16[ e d] f e d }
+		c8.( d32 e) \tuplet 3/2 8 { f16[ g a] a, b c } c4 b\trill
+		a a'16 f c a h f d' h c g e' c
+		d f h f d' h f d e c'8 c16 c e, d c %5
+		\tuplet 3/2 8 { h[ a g] } c e, d8 h' c,4 r
+		r2 r4 c'16 a f' c
+		d f c f d f b d, c f, a c f f e d
+		cis e a^\critnote cis, d d' e, g \tuplet 3/2 8 { f[ e d] } d' f, e8 cis'
+		d,4 d,16 fis a d \appoggiatura d c8 b16 a b g g, b' %10
+		a d, fis d b' d g b b, g e g a c f a,
+		g e c e g c e g a, c fis a a, c fis a
+		b, d g b b, d g b g, b e g b g e b
+		a c f a, g8 e' f,4 \once \tieDashed a~
+		a8 b16 a b8 g a a c c %15
+		f16 f, f f' f f, f f' e g c e, f d d' f,
+		e c g e c e g c cis cis, cis' cis cis cis, cis' cis
+		d d, d' d d d, d' d c c, c' c c c, c' c
+		c c, c' c h h, h' h b b, b' b b b, b' b
+		b b, b' b a8 a b a b a %20
+		g4 g16( a32 b c d e f) g16. g,32 f16. a32 g8^\critnote e'
+		f, \tempoEtIncarnatus a a a g8. g16 g8 g
+		g4. g16 g g8 f f\pE f
+		f f f e16 d e4 r8 d
+		cis d d cis d4 \tempoCrucifixus d8\fE d %25
+		es4 es d8. d16 d8 d
+		d4 d8 d d8. g16 g8 g
+		g4 f! f2
+		f d4 \once \tieDashed c~
+		c d d4.\pE d8 %30
+		c2. c4
+		c8 \tempoEtResurrexit a''16(\fE f) f( c) c( a) d( b) f'( d) c( a) f'( c)
+		b g g' g g e g b, b8.(\trill a32 b) a8 c
+		f4 f,8 f' f8.(\trill e32 f) e8 c
+		\tuplet 3/2 8 { f16[ e f] } f, f' \tuplet 3/2 8 { f[ e f] } g, f' e c g e c4 %35
+		r2 r4 \once \tieDashed f'~
+		f16 f, e e' \once \tieDashed d4~ d16 d, c c' \once \tieDashed b4~
+		b16 g' a, f' g,8 e' f,16 a c f a f c a
+		g cis e g f a, e' a, f'( e) e( d) d a' c, a'
+		c,8.(\trill h32 c) h4 r8 g g g %40
+		r g g g r g g g
+		r g g g g g r4
+		r g\pE as g
+		fis4. fis8 g4 d'8\fE d
+		g16( d) d( h) h g g g' g e e c c g g g' %45
+		\tuplet 3/2 8 { f[ e d] } e c' d,8 h' c,4 r
+		R1
+		r2 r4 \once \tieDashed gis~
+		gis8 gis16 a h8 h h4 a
+		R1*2 %51
+		<g' h, d, g,>8 d32( c h a) g16 h d f e c g' e d4
+		e,2\pE f
+		d4. d8 d4 c8 c
+		c h16( c) d8 c c4 h %55
+		d4. d8 d8. d16 d4
+		c16\fE a' c, a' h,8 gis' a, a'16 gis a e c e
+		a,8 a'16 gis a a, a' g f8 f16 e f a f e
+		d8 d16 c d8 dis e16 e gis fis e d c h
+		a a' c h a g f e d8 d16 c d8 dis? %60
+		e e'16 dis e e, gis e a, c e a c e a e
+		cis e a e cis e a, cis d d, f a d f a a,
+		b! b' b b b g e b a a' a a a f d a
+		g g g g f f f f f8.( e32 f) e4
+		c16 e g c e g g, b a8 f16 e f c a c %65
+		f a c f d f e b' a8 f, r4
+		a\pE g \appoggiatura g f2
+		e4 g\fE a a8 a
+		a4 g8 g g g g g16 g
+		a c f a g,8 e' a,16 c f a g,8 e' %70
+		f,4 r r2\fermata \bar "|." %71 finis
+	}
+}

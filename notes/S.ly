@@ -205,6 +205,156 @@ GloriaSopranoLyrics = \lyricmode {
 	men, a -- men. %47 finis
 }
 
+CredoSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \autoBeamOff \tempoCredo
+		\mvTr c'4\fE^\tuttiE f,8 c' f4. f8
+		f4 e8 c d4. d8
+		c4 f,8 c' c4( b)
+		a a8 a h8. h16 c4
+		d8. g,16 g4 e'4. d16([ c)] %5
+		h8 c c h c4 r
+		r2 r4 c8 c16 c
+		d8 c d4 c f8 e16 d
+		cis8 cis d e d4( cis8.) cis16
+		d4 d8 d \appoggiatura d16 c8 b16([ a)] b4 %10
+		a b8 b b b16 b a8. a16
+		g4 g8 g16 g a8 a a a16 a
+		b8 b16 b b8 b b4 b8 b
+		a a g4 f c'~
+		c8 d16([ c)] d8 e f f, c' c %15
+		f4. f8 e e d4
+		c c8 c cis4 cis8 cis
+		d8. a16 a8 a c4 c8 c
+		c8. h16 h8 g b b b b16 b
+		b4 a8 c d[ c d c] %20
+		\once \tieDashed b2~ b8 a16 a g4
+		f8 \tempoEtIncarnatus c' c c cis8. cis16 cis8 d
+		e4. e16 e e8 d a\p a
+		gis gis gis8. gis16 a8 e g4~
+		g8 f e8. e16 d4 \tempoCrucifixus f8\f f %25
+		fis4 fis g8. g16 g8 g
+		a4 a8 a b8. b16 b8 b
+		b4 a d2
+		c b
+		a g~\p %30
+		g4 a g4. g8
+		f \tempoEtResurrexit c'\f c c d4 c
+		b b8 b b4 a8 c
+		f4 f,8 f' f4 e8 c
+		c4( h) c r %35
+		r2 r4 f~
+		f8[ e] d4. c8 b4~
+		b8 a16 a g4 f c'
+		cis8. cis16 d8 e f e d c
+		c8. h16 h4 g2 %40
+		h c
+		f e8 d r4
+		c2\p c~
+		c8[ es] d([ c)] h4 d8\f d
+		g4 g, c r8 c %45
+		f e d4 c r
+		R1
+		r2 r4 h~
+		h8 h16([ c)] d8 d d4 c
+		R1*2 %51
+		d8 d d d16 d e8. e16 d4
+		c2\p a
+		f4. f8 f4 e8 e
+		e d16([^\critnote e)] f8 e e4 d %55
+		f4.^\critnote f8 f8. e16 e4
+		e8\f a a([ gis)] a4 r
+		r8 c c c c4 c8 c
+		d4. c8 h h h h
+		c8. c16 c8 c d4. c8 %60
+		h4 h c8. c16 c4
+		cis cis8 cis d4 a
+		b!4. b8 a4. a8
+		g g as as as4 g
+		r g8 g a4 a %65
+		c8. c16 d8 e f f, r4
+		a\p g \appoggiatura g f2
+		e4 c'\f c c8 c
+		c4 b8 b b b b b16 b
+		a8 a g4 a g %70
+		f r r2\fermata \bar "|." %71 finis
+	}
+}
+
+CredoSopranoLyrics = \lyricmode {
+	Pa -- trem o -- mni -- po --
+	ten -- tem, fa -- cto -- rem
+	coe -- li et ter --
+	rae, vi -- si -- bi -- li -- um
+	o -- mni -- um et in -- %5
+	vi -- si -- bi -- li -- um.
+	Do -- mi -- num
+	Je -- sum Chri -- stum, Fi -- li -- um
+	De -- i u -- ni -- ge -- ni --
+	tum, et ex Pa -- tre na -- %10
+	tum an -- te o -- mni -- a sae -- cu --
+	la. De -- um de De -- o, lu -- men de
+	lu -- mi -- ne, De -- um ve -- rum de
+	De -- o ve -- ro, ge --
+	ni -- tum non fa -- ctum, con -- sub -- %15
+	stan -- ti -- a -- lem Pa --
+	tri, per quem o -- mni -- a
+	fa -- cta sunt. Qui pro -- pter nos
+	ho -- mi -- nes et pro -- pter no -- stram sa --
+	lu -- tem de -- scen -- %20
+	_ dit de coe --
+	lis. Et in -- car -- na -- tus est de
+	Spi -- ri -- tu San -- cto ex Ma --
+	ri -- a Vir -- gi -- ne, et ho --
+	mo fa -- ctus est. Cru -- ci -- %25
+	fi -- xus e -- ti -- am pro
+	no -- bis sub Pon -- ti -- o Pi --
+	la -- to, pas --
+	sus, pas --
+	sus et __ %30
+	se -- pul -- tus
+	est. Et re -- sur -- re -- xit
+	ter -- ti -- a di -- e se --
+	cun -- dum, se -- cun -- dum Scri --
+	ptu -- ras, %35
+	se --
+	det ad dex --
+	te -- ram Pa -- tris. Et
+	i -- te -- rum ven -- tu -- rus est cum
+	glo -- ri -- a iu -- %40
+	di -- ca --
+	re vi -- vos
+	et mor --
+	tu -- os, cu -- ius
+	re -- gni non, non %45
+	e -- rit fi -- nis.
+
+	et __
+	vi -- vi -- fi -- can -- tem,
+
+	Qui cum Pa -- tre et Fi -- li -- o %52
+	si -- mul
+	ad -- o -- ra -- tur et
+	con -- glo -- ri -- fi -- ca -- tur: %55
+	qui lo -- cu -- tus est
+	per Pro -- phe -- tas.
+	Et u -- nam san -- ctam ca --
+	tho -- li -- cam et a -- po --
+	sto -- li -- cam Ec -- cle -- si -- %60
+	am. Con -- fi -- te -- or
+	u -- num ba -- ptis -- ma
+	in re -- mis -- si --
+	o -- nem pec -- ca -- to -- rum.
+	Et ex -- pe -- cto %65
+	re -- sur -- re -- cti -- o -- nem
+	mor -- tu -- o --
+	rum, et vi -- tam ven --
+	tu -- ri, ven -- tu -- ri sae -- cu -- li,
+	a -- men, a -- men, a -- %70
+	men. %71 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

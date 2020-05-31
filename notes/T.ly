@@ -205,6 +205,158 @@ GloriaTenoreLyrics = \lyricmode {
 	men, a -- men. %47 finis
 }
 
+CredoTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key f \major \time 4/4 \autoBeamOff \tempoCredo
+		\mvTr a4\fE^\tuttiE a r8 c c c
+		c4 c r8 d b b
+		c4 c8 a a4( g)
+		f c'8 c h8. h16 g4
+		g8. g16 g4 g4. a8 %5
+		h16([ a)] g8 g8. g16 g4 g8 g
+		a g a8. a16 g4 f8 f16 f
+		f8 f f4 f d'8 e16 e
+		e8 e d b a4. a8
+		a4 a8 a b d d4 %10
+		d d8 d c c16 c c8. c16
+		c4 c8 c16 c c8 c c c16 c
+		b8 b16 b b8 d c4 c8 c
+		c4 c c c
+		r2 r4 a~ %15
+		a8 c16([ b?)] c8 d e e f4
+		e e8 e e4 e8 e
+		d8. d16 d8 d d4 d8 d
+		d8. d16 d8 d c c c c16 c
+		c4 c r r8 f %20
+		d2 c8 c c4
+		c8 \tempoEtIncarnatus a a a b8. b16 b8 b
+		a4. a16 a a8 a a\pE a
+		d d d8. d16 cis4 r8 g
+		a a a8. a16 a4 \tempoCrucifixus a8\fE a %25
+		a4 a b8. b16 b8 b
+		a4 a8 a g8. d'16 d8 d
+		c4 c r b~
+		b a2 g4~
+		g f f4.\p f8 %30
+		e4( f2) e4
+		f8 \tempoEtResurrexit a\f a a b4 a
+		d c8 c c4 c
+		r r8 c c4 c8 c
+		a4( g) g g8 a %35
+		b([ c)] d e f4 f,
+		d'4.( c8) b4. b8
+		c c16 c c4 c a
+		g8. g16 f8 g f g a a
+		g8. g16 g4 d'2 %40
+		d e
+		d c8 h r4
+		r c\p \once \tieDashed c2~
+		c4 c d h8\f h
+		h4 h c r8 c %45
+		h c c([ h)] c4 e~
+		e d c c8 c
+		d4 c c8. h?16 h4
+		r2 r4 e8 e
+		e2 f4 f8 f %50
+		f4 e8 e e4 d
+		h8 h h h16 h c8. c16 h4
+		g2\p a
+		g4. g8 g4 g8 g
+		a a a a g4 g %55
+		h4. h8 h8. h16 h4
+		c8\f c h4 a r
+		r8 a a a a4 a8 a
+		h4. a8 gis gis gis gis
+		a8. a16 a8 a h4. a8 %60
+		gis4 gis a8. a16 a4
+		a a8 a a4 a
+		a g g f
+		f8 f f f f4 e
+		r c'8 c c4 c %65
+		a8. a16 b8 b c c \once \tieDashed a4~\p
+		a8[ h] c4 c( h)
+		c e\f es es8 es
+		d4 d8 d c c c c16 c
+		c8 c c4 c c %70
+		c r r2\fermata \bar "|." %71 finis
+	}
+}
+
+CredoTenoreLyrics = \lyricmode {
+	Pa -- trem o -- mni -- po --
+	ten -- tem, fa -- cto -- rem
+	coe -- li et ter --
+	rae, vi -- si -- bi -- li -- um
+	o -- mni -- um et in -- %5
+	vi -- si -- bi -- li -- um. Et in
+	u -- num Do -- mi -- num, Do -- mi -- num
+	Je -- sum Chri -- stum, Fi -- li -- um
+	De -- i u -- ni -- ge -- ni --
+	tum, et ex Pa -- tre na -- %10
+	tum an -- te o -- mni -- a sae -- cu --
+	la. De -- um de De -- o, lu -- men de
+	lu -- mi -- ne, De -- um ve -- rum de
+	De -- o ve -- ro,
+	con -- %15
+	sub -- stan -- ti -- a -- lem Pa --
+	tri, per quem o -- mni -- a
+	fa -- cta sunt. Qui pro -- pter nos
+	ho -- mi -- nes et pro -- pter no -- stram sa --
+	lu -- tem de -- %20
+	scen -- dit de coe --
+	lis. Et in -- car -- na -- tus est de
+	Spi -- ri -- tu San -- cto ex Ma --
+	ri -- a Vir -- gi -- ne, et
+	ho -- mo fa -- ctus est. Cru -- ci -- %25
+	fi -- xus e -- ti -- am pro
+	no -- bis sub Pon -- ti -- o Pi --
+	la -- to, pas --
+	sus, pas --
+	sus et se -- %30
+	pul -- tus
+	est. Et re -- sur -- re -- xit
+	ter -- ti -- a di -- e
+	se -- cun -- dum Scri --
+	ptu -- ras, et a -- %35
+	scen -- dit in coe -- lum,
+	se -- det ad dex --
+	te -- ram Pa -- tris. Et
+	i -- te -- rum ven -- tu -- rus est cum
+	glo -- ri -- a iu -- %40
+	di -- ca --
+	re vi -- vos
+	et mor --
+	tu -- os, cu -- ius
+	re -- gni non, non %45
+	e -- rit fi -- nis. Et __
+	in Spi -- ri -- tum
+	San -- ctum, Do -- mi -- num
+	qui ex
+	Pa -- tre Fi -- li -- %50
+	o -- que pro -- ce -- dit.
+	Qui cum Pa -- tre et Fi -- li -- o
+	si -- mul
+	ad -- o -- ra -- tur et
+	con -- glo -- ri -- fi -- ca -- tur: %55
+	qui lo -- cu -- tus est
+	per Pro -- phe -- tas.
+	Et u -- nam san -- ctam ca --
+	tho -- li -- cam et a -- po --
+	sto -- li -- cam Ec -- cle -- si -- %60
+	am. Con -- fi -- te -- or
+	u -- num ba -- ptis -- ma
+	in re -- mis -- si --
+	o -- nem pec -- ca -- to -- rum.
+	Et ex -- pe -- cto %65
+	re -- sur -- re -- cti -- o -- nem mor --
+	tu -- o --
+	rum, et vi -- tam ven --
+	tu -- ri, ven -- tu -- ri sae -- cu -- li,
+	a -- men, a -- men, a -- %70
+	men. %71 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
