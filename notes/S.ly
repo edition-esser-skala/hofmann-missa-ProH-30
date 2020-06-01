@@ -439,13 +439,76 @@ BenedictusSopranoLyrics = \lyricmode {
 	cel -- sis. %21 finis
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
-%
-% SopranoLyrics = \lyricmode {
-%
-% }
+AgnusDeiSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \autoBeamOff \tempoAgnusDei
+		r4 \mvTr a'\fE^\tutti a
+		b a a
+		a g8 g g g
+		g4 f r
+		f4. f8 f4 %5
+		e e( d)
+		c r r
+		r g' g
+		g g g
+		c c8 c c c %10
+		c4 b! r
+		b4. b8 b4
+		a8.([ f16)] f4( e)
+		d r r
+		r a' a %15
+		a a a
+		d d8 d b a \noBreak
+		a4 g r\fermata \bar "||"
+		\time 4/4 \tempoDona c8. c16 f8 c d c r \noBreak
+		c b4~ b16[ c b c] a8 c f4~ %20
+		f8 e a,8. a16 h8 c c([ h)]
+		c4 r r2
+		c8. c16 c8 g a g r \once \tieDashed e'~
+		e16[ f e f] d4 c e8. f16
+		g8 b,! b4 a c8. d16 %25
+		es8 es \appoggiatura f16 es8([ d16 c)] d4 e8. e16
+		f4( b,8) a a g r4
+		c8. c16 f8 c d c r c
+		b4~ b16[ c b c] a8 c f4~
+		f8 e4 d c \once \tieDashed b8~ %30
+		b a g4 f r
+		r8 a( g4) f r\fermata \bar "|." %32 FINIS
+	}
+}
+
+AgnusDeiSopranoLyrics = \lyricmode {
+	A -- gnus
+	De -- i, qui
+	tol -- lis pec -- ca -- ta
+	mun -- di:
+	Mi -- se -- re -- %5
+	re no --
+	bis.
+	A -- gnus
+	De -- i, qui
+	tol -- lis pec -- ca -- ta %10
+	mun -- di:
+	Mi -- se -- re --
+	re __ no --
+	bis.
+	A -- gnus %15
+	De -- i, qui
+	tol -- lis pec -- ca -- ta
+	mun -- di:
+	Do -- na no -- bis pa -- cem, pa --
+	_ cem, pa -- _ %20
+	cem, do -- na no -- bis pa --
+	cem.
+	Do -- na no -- bis pa -- cem, pa --
+	_ cem, do -- na
+	no -- bis pa -- cem, do -- na %25
+	no -- bis pa -- cem, do -- na
+	no -- bis pa -- cem.
+	Do -- na no -- bis pa -- cem, pa --
+	_ cem, pa -- _
+	_ _ _ _ %30
+	cem, pa -- cem,
+	pa -- cem. %32 FINIS
+}

@@ -16,7 +16,7 @@ KyrieViolinoII = {
 		f4~ f16 g f g e4 e'8. f16
 		g8 b16( g) \slurDashed g( e) e( b) \slurSolid a4 c8. d16
 		es8 es \appoggiatura f16 es8 d16 c d8 d,16. d'32 e8.(\trill d32 e)
-		f8 c16( a) g8 f f e r4
+		f8 c16.^\critnote a32 g8 f f e r4
 		c'8. c16 f8 c d c a'16( f c a) %10
 		b4 b16( c b c) a8 c f4~
 		f16 g, e'8~ e16 f, d'8~ d16 e, c'8~ c16 d, b'8~
@@ -40,7 +40,7 @@ KyrieViolinoII = {
 		f4~ f16 g f g e4 e'8. f16 %30
 		g8 b16( g) \slurDashed g( e) e( b) \slurSolid a4 c8. d16
 		es8 es \appoggiatura f16 es8 d16 c d8 d,16. d'32 e8.(\trill d32 e)
-		f8 c16( a) g8 f f e r4
+		f8 c16.^\critnote a32 g8 f f e r4
 		c'8. c16 f8 c d c a'16( f c a)
 		b4 b16( c b c) a8 c f4~ %35
 		f16 g, e'8~ e16 f, d'8~ d16 e, c'8~ c16 d, b'8~
@@ -222,5 +222,44 @@ BenedictusViolinoII = {
 		g a b2 a8 a
 		a4 g8. g16 g8. g16 f8 g %20
 		\tuplet 3/2 8 { a16[ a' g] f e f } g,8 e' f,4 r\fermata \bar "|." %21 finis
+	}
+}
+
+AgnusDeiViolinoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \tempoAgnusDei
+		r4 f\fE f
+		g f f
+		f e8 e e e
+		e4 d r
+		d4. d8 d4 %5
+		c c h
+		c8 e'4 e16. c32 c8 h
+		c4 e, e
+		f e g
+		fis4 fis8 fis a a %10
+		a4 g r
+		e4. e8 e4
+		d d cis
+		d8 f'4 f16. d32 d8 cis
+		d4 f, f %15
+		g f f
+		f f8 f g f \noBreak
+		f4 e r\fermata \bar "||"
+		\time 4/4 \tempoDona c'8. c16 f8 c d c a'16 f c a \noBreak
+		b4 b16( c b c) a8 c f4~ %20
+		f8 e a16 f a c, \tuplet 3/2 8 { h a g } c8 d, h'
+		c, c'4 e e16. c32 c8 h
+		c8. c16 g' e c g a8 g r g
+		\once \tieDashed f4~ f16 g f g e4 e'8. f16
+		g8 b16 g g e e b a4 c8. d16 %25
+		es8 es \appoggiatura f16 es8 d16 c d8 d,16. d'32 e8.(\trillE d32 e)
+		f8 c16. a32 g8 f f e r4
+		c'8. c16 f8 c d c a'16 f c a
+		b4 b16( c b c) a8 c f4~
+		f16 g, e'8~ e16 f, d'8~ d16 e, c'8~ c16 d, b'8~
+		b16 c, a' f' g,8 e' f, a4 f'8~
+		f16 c a f g8 e' f,4 r\fermata \bar "|."
 	}
 }

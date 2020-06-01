@@ -155,3 +155,26 @@ BenedictusCornoI = {
 		e4 d c r\fermata \bar "|." %21 finis
 	}
 }
+
+AgnusDeiCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoAgnusDei
+		R2.*17 \noBreak %17
+		R2.\fermataMarkup \bar "||"
+		\time 4/4 \tempoDona c'4\fE c8 c c c r4 \noBreak
+		r d e r %20
+		R1
+		g4 r r2
+		g4 g8 g g g r4
+		r2 g4 g8 g
+		g4 g8 g e4 e %25
+		c c8 c c4 d
+		e r e8 d r4
+		c c8 c c c r4
+		r d e r
+		R1 %30
+		d8 e d d e4 r
+		e8 e d d c4 r\fermata \bar "|." %32 FINIS
+	}
+}

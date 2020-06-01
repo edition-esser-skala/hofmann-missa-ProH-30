@@ -441,13 +441,76 @@ BenedictusTenoreLyrics = \lyricmode {
 	cel -- sis. %21 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-%
-% 	}
-% }
-%
-% TenoreLyrics = \lyricmode {
-%
-% }
+AgnusDeiTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key f \major \time 3/4 \autoBeamOff \tempoAgnusDei
+		r4 \mvTr c\fE^\tutti c
+		c c c
+		c a8 a a a
+		a4 a r
+		a4. a8 g4 %5
+		g g2
+		g4 r r
+		r c c
+		d c e
+		es4 es8 es d d %10
+		d4 d r
+		cis4. cis8 cis4
+		d a2
+		a4 r r
+		r d d %15
+		e d d
+		d d8 d d d \noBreak
+		c4 c r\fermata \bar "||"
+		\time 4/4 \tempoDona a8. a16 a8 a b a r a( \noBreak
+		b4 c) c r8 \once \tieDashed d~ %20
+		d c c8. c16 d8 e d4
+		c r r2
+		g8. g16 g8 c c c r \once \tieDashed c~
+		c4 d g, c8. c16
+		c8 c c4 c a8. b16 %25
+		c8 c c([ b16 a)] b4 r8 c16 c
+		c4( d8) d c c r4
+		a8. a16 a8 a b a r a(
+		b4 c) c r8 d~
+		d c4 b a g8~ %30
+		g f f([ e)] f4 r
+		r8 c'16 c c4 c r\fermata \bar "|." %32 FINIS
+	}
+}
+
+AgnusDeiTenoreLyrics = \lyricmode {
+	A -- gnus
+	De -- i, qui
+	tol -- lis pec -- ca -- ta
+	mun -- di:
+	Mi -- se -- re -- %5
+	re no --
+	bis.
+	A -- gnus
+	De -- i, qui
+	tol -- lis pec -- ca -- ta %10
+	mun -- di:
+	Mi -- se -- re --
+	re no --
+	bis.
+	A -- gnus %15
+	De -- i, qui
+	tol -- lis pec -- ca -- ta
+	mun -- di:
+	Do -- na no -- bis pa -- cem, pa --
+	cem, pa -- %20
+	cem, do -- na no -- bis pa --
+	cem.
+	Do -- na no -- bis pa -- cem, pa --
+	_ cem, do -- na
+	no -- bis pa -- cem, do -- na %25
+	no -- bis pa -- cem, do -- na
+	no -- bis pa -- cem.
+	Do -- na no -- bis pa -- cem, pa --
+	cem, do --
+	_ na, no -- _ %30
+	bis pa -- cem,
+	no -- bis pa -- cem. %32 FINIS
+}

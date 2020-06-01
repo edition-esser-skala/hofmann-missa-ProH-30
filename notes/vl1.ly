@@ -226,9 +226,41 @@ BenedictusViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
+AgnusDeiViolinoI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \tempoAgnusDei
+		r4 \mvTr a'\fE-\critnote a
+		b a a
+		a g8 g g g
+		g4 f r
+		f4. f8 f4 %5
+		e e d
+		c8 g''4 c16. e,32^\critnote e8 d
+		c4 g g
+		g g g
+		c c8 c c c %10
+		c4 b! r
+		b4. b8 b4
+		a8.-\critnote f16 f4 e
+		d8 a''4 d16. f,32 f8 e
+		d4 a a %15
+		a a a
+		d d8 d b a \noBreak
+		a4 g r\fermata \bar "||"
+		\time 4/4 \tempoDona c8. c16 f8 c d c a'16 f c a \noBreak
+		b4 b16( c b c) a8 c \once \tieDashed f4~ %20
+		f8 e a16 f a c, \tuplet 3/2 8 { h a g } c8 d, h'
+		c, e'4 g c16. e,32^\critnote e8 d
+		c8. c16 g' e c g a8 g r e'~
+		e16 f e f d4 c e8. f16
+		g8 b16 g g e e b a4 c8. d16 %25
+		es8 es \appoggiatura f16 es8 d16 c d8 d,16. d'32 e8.(\trillE d32 e)
+		f8 a16. c,32 b8 a a g r4
+		c8. c16 f8 c d c a'16 f c a
+		b4 b16 c b c a8 c \once \tieDashed f4~
+		f16 g, e'8~ e16 f, d'8~ d16 e, c'8~ c16 d, b'8~ %30
+		b16 c, a' f' g,8 e' f, f'4 \once \tieDashed a8~
+		a16 f c a g8 e' f,4 r\fermata \bar "|." %32 FINIS
+	}
+}

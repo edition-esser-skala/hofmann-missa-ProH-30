@@ -430,13 +430,76 @@ BenedictusBassFigures = \figuremode {
 	<6 4>4 <5 3>2. %21 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-%
-% 	}
-% }
-%
-% BassFigures = \figuremode {
-%
-% }
+AgnusDeiOrgano = {
+	\relative c {
+		\clef bass
+		\key f \major \time 3/4 \tempoAgnusDei
+		\mvTr f,4\fE-\tutti f' f
+		e f f
+		c cis cis
+		d4. f8 a f
+		d4 d h %5
+		c g g
+		c8 c'16 h c g e c g'8 g,
+		c4 c c
+		h c c
+		a a fis %10
+		g4. g8 b! d
+		g4 g g
+		f8 d a'4 a,
+		d8 d'16 cis d a f d a'8 a,
+		d4 d d %15
+		cis d d
+		b b b8 h \noBreak
+		c4 c r\fermata \bar "||"
+		\time 4/4 \tempoDona f8. f16 f8 f b, f'16 e f f, f'8 \noBreak
+		d d e c f4 r8 d %20
+		h c f8. f16 f8 e16 f g8 g,
+		c16 c' h c g c e, g c, e g c g8 g,
+		c8. c16 c8 c f c16 h c e g c
+		a,8 a h g c c' c, c
+		c c e c f f, f' f %25
+		f f f f b, b' b16 g c b
+		a8 a b h c c, c'16 b a g
+		f8. f16 f8 f b, f'16 e f f, f'8
+		d d e c f4 r8 d'
+		b c a b g a f g %30
+		e f c c f,16 f' e f c f a, c \noBreak
+		f, a c f c8 c f,4 r\fermata \bar "|." %32 FINIS
+	}
+}
+
+AgnusDeiBassFigures = \figuremode {
+	r2.
+	<6 5>
+	<6 4>4 <5 3>2
+	<9 4>4 <8 3>2
+	r <6 5>4 %5
+	r <[6] 4> <[5] _!>
+	r2 <[6] 4>8 <[5] _!>
+	r2.
+	<6 5>
+	<6\\ 5->2 <6 5>4 %10
+	<9 4> <8 3>2
+	<4\+ _->2.
+	<6>4 <[6] 4> <[5] _+>
+	r2 <[6] 4>8 <[5] _+>
+	r2. %15
+	<6 5>
+	r2 <8 6>8 <7 5>
+	<6 4>4 <5 3>2
+	r1
+	<6 5>4 <[6 5]>2. %20
+	<6 5>2 <4! 2>8 <[6]> <4> <_!>
+	r2. <[6] 4>8 <[5] _!>
+	r2. <[10]>4
+	<6 5> <[6 5]>2.
+	<7->4 <[6 5-]>2. %25
+	<7-> <4! 2>4
+	<6> <8 6>8 <7 5> <6 4> <5 3>4.
+	r1
+	<6 5>4 <[6 5]>2.
+	<6 5>4 q q q %30
+	q <4>8 <3> r2
+	r4 <4>8 <3> r2 %32 FINIS
+}
