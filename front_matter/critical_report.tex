@@ -8,20 +8,10 @@
 \DeclareTOCStyleEntry[
   indent=0pt,
   beforeskip=0pt,
-  entryformat=\itshape,
   entrynumberformat=\textcolor{oldred},
   numwidth=2em,
   linefill=\hfill,
   pagenumberbox=\pnumbox,
-  pagenumberformat=\itshape
-]{tocline}{part}
-\DeclareTOCStyleEntry[
-  indent=2em,
-  beforeskip=-\baselineskip,
-  entrynumberformat=\textcolor{oldred},
-  numwidth=2em,
-  linefill=\hfill,
-  pagenumberbox=\pnumbox
 ]{tocline}{section}
 
 \usepackage[english]{babel}
@@ -46,8 +36,7 @@
 
 \newfontfamily\headingfont{Fredericka the Great}
 
-\usepackage[pass]{geometry}
-\newgeometry{twoside,inner=20mm,outer=40mm,top=20mm,bottom=40mm}
+\usepackage[twoside,inner=20mm,outer=40mm,top=20mm,bottom=40mm]{geometry}
 
 \usepackage{url}
 \urlstyle{same}
@@ -137,6 +126,10 @@ if not (scores[last_arg] == nil) then
 end
 }
 
+\ifprintreport
+\geometry{landscape,outer=127mm}
+\fi
+
 \@ifundefined{lypdfname}{%
   \templatefalse
   \printreporttrue
@@ -158,7 +151,7 @@ end
 \title{Missa in ut Fa dedicata Sancto Angelo Custodi}
 \shorttitle{Missa S.A.Custodi}
 \subtitle{ProH 30 (A-Ed A 100)}
-\instrumentation{S, A, T, B (solo), S, A, T, B (Coro), 2 cor, 2 vl, b, org}
+\instrumentation{	S, A, T, B (Coro), 2 cor, 2 vl, b, org}
 \maketitle
 
 
@@ -180,7 +173,7 @@ Front matter typeset with Source Sans Pro and Fredericka the Great.
 \ifprintreport
 \chapter*{Critical Report.}
 
-This edition bases upon a bases upon a copy in the Dommusikarchiv Eisenstadt. The digital version of the manuscript is available at \url{http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/701.html} (siglum A 100).
+This edition bases upon a bases upon a copy in the Dommusikarchiv Eisenstadt. The digital version of the manuscript is available at \url{http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/554.html} (siglum A 100).
 
 In general, this edition closely follows the manuscript. Any changes that were introduced by the editor are indicated by italic type (lyrics, dynamics and directions), parentheses (expressive marks) or dashes (slurs and ties). Accidentals are used according to modern conventions. Asterisks denote changes that are clarified in the detailed remarks below.\footnote{Abbreviations: A, alto; B, basso; b, basses; cor, horn; Ms, manuscript; org, organ; r, rest; S, soprano; T, tenore; vl, violin.}
 
@@ -214,7 +207,6 @@ In general, this edition closely follows the manuscript. Any changes that were i
 	  & 22 & vl 1 & 32nd in Ms: f″32 \\
 	\bottomrule
 \end{longtable}
-
 
 This edition has been compiled and checked with utmost diligence. Nevertheless, errors and mistakes cannot be totally excluded. Please report any errors and mistakes to \url{wolfgang@esser-skala.at} or create an issue or pull request on the edition’s GitHub page \url{https://github.com/skafdasschaf/hofmann-missa-ProH-30}. Your help will be greatly appreciated.
 
