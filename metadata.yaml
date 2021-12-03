@@ -1,14 +1,19 @@
-composer: Hofmann, Leopold
-title: Missa in ut Fa dedicata Sancto Angelo Custodi
+composer:
+  last: Hofmann
+  first: Leopold
+title: Missa
+subtitle: in ut Fa dedicata Sancto Angelo Custodi
 id: ProH 30
 genre: mass
 scoring: S, A, T, B (coro), 2 cor (F), 2 vl, b, org
+license: cc-by-sa-4.0
 sources:
   B1:
     siglum: A-Ed
     shelfmark: A 100
     rism: 600037898
     url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/554.html
+    license: public domain
     principal: true
 imslp: Missa_in_ut_Fa_dedicata_Sancto_Angelo_Custodi_(Hofmann,_Leopold)
 parts:
